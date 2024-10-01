@@ -47,8 +47,11 @@ CREATE TABLE bookings (
     FOREIGN KEY (train_id) REFERENCES trains(id)
 );<br>
 6. Start the server<br>
-node index.js
+node index.js<br>
 
+OUTPUT:
+1.User Registration
+![Diagram](https://github.com/ShetSahil/railway-management-system/blob/aca35aca9bbd22482776eb3035586d4f76ed8d3e/images/register.png)
 
 
 
