@@ -5,7 +5,7 @@ This is a api based project developed using Node.js, Express and MySQL. In this 
 Project Setup<br>
 1. Clone the Repository ( using git clone)
 2. Navigate to the project folder
-3. Install dependencies
+3. Install dependencies<br>
 npm install
 4. Set Up the Enviornment Variable by creating .env file in root directory and include the following<br>
 PORT=3000<br>
