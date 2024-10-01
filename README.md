@@ -20,7 +20,6 @@ DB_NAME=railway_management<br>
 ->CREATE DATABASE railway_management;<br>
 ->USE railway_management;<br>
 -> -- Users table<br>
-
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
@@ -29,7 +28,6 @@ CREATE TABLE users (
     role ENUM('admin', 'user') DEFAULT 'user'
 );<br>
 -- Trains table<br>
-
 CREATE TABLE trains (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
@@ -39,7 +37,6 @@ CREATE TABLE trains (
     available_seats INT
 );<br>
 -- Bookings table<br>
-
 CREATE TABLE bookings (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT,
