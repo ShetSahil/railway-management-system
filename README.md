@@ -19,17 +19,15 @@ DB_NAME=railway_management<br>
 5. Set Up the Database <br>
 ->CREATE DATABASE railway_management;<br>
 ->USE railway_management;<br>
-
--> -- Users table
+-> -- Users table<br>
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
     email VARCHAR(100) UNIQUE,
     password VARCHAR(255),
     role ENUM('admin', 'user') DEFAULT 'user'
-);
-
--- Trains table
+);<br>
+-- Trains table<br>
 CREATE TABLE trains (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
@@ -37,9 +35,8 @@ CREATE TABLE trains (
     destination VARCHAR(100),
     total_seats INT,
     available_seats INT
-);
-
--- Bookings table
+);<br>
+-- Bookings table<br>
 CREATE TABLE bookings (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT,
@@ -48,10 +45,8 @@ CREATE TABLE bookings (
     booking_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (train_id) REFERENCES trains(id)
-);
-
-6. Start the server
-
+);<br>
+6. Start the server<br>
 node index.js
 
 
