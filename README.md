@@ -2,14 +2,12 @@ Railway Management System API
 
 This is a api based project developed using Node.js, Express and MySQL. In this project the user can register themself and then login using the credentials used while registering. User can afterwards view the trains available between  mentioned stations and book the tickets and can also view their booking history. Admin has the authority to add trains,source,destination and total seats .
 
-Project Setup
-
+Project Setup<br>
 1. Clone the Repository ( using git clone)
 2. Navigate to the project folder
 3. Install dependencies
 npm install
-4. Set Up the Enviornment Variable by creating .env file in root directory and include the following
-
+4. Set Up the Enviornment Variable by creating .env file in root directory and include the following<br>
 PORT=3000<br>
 JWT_SECRET=your_jwt_secret_key<br>
 ADMIN_API_KEY=your_admin_api_key<br>
@@ -18,9 +16,9 @@ DB_USER=root<br>
 DB_PASSWORD=your_password<br>
 DB_NAME=railway_management<br>
 
-5. Set Up the Database
-->CREATE DATABASE railway_management;
-->USE railway_management;
+5. Set Up the Database <br>
+->CREATE DATABASE railway_management;<br>
+->USE railway_management;<br>
 
 -> -- Users table
 CREATE TABLE users (
