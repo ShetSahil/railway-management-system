@@ -50,8 +50,20 @@ CREATE TABLE bookings (
 node index.js<br>
 
 OUTPUT:
-1.User Registration
+1.User Registration<br>
 ![Diagram](https://github.com/ShetSahil/railway-management-system/blob/aca35aca9bbd22482776eb3035586d4f76ed8d3e/images/register.png)
+2.User Login
+![Diagram](https://github.com/ShetSahil/railway-management-system/blob/b34fe9ec3cf36f9852de4019f0d37f26ff9fb125/images/login.png)
+3.Admin Updating Trains,br>
+a.Displaying Secret Api Key entered-
+![Diagram](https://github.com/ShetSahil/railway-management-system/blob/b34fe9ec3cf36f9852de4019f0d37f26ff9fb125/images/addTrains1.png)
+b.Displaying the Body entered-
+![Diagram](https://github.com/ShetSahil/railway-management-system/blob/b34fe9ec3cf36f9852de4019f0d37f26ff9fb125/images/addTrains2.png)
+4.Getting Trains available between mentioned Stations
+![Diagram](https://github.com/ShetSahil/railway-management-system/blob/b34fe9ec3cf36f9852de4019f0d37f26ff9fb125/images/availableTrains.png)
+5.Booking train seats
+a. Displaying the authorization token
+![Diagram]()
 
 
 
