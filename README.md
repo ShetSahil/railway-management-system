@@ -10,13 +10,13 @@ Project Setup
 npm install
 4. Set Up the Enviornment Variable by creating .env file in root directory and include the following
 
-PORT=3000
-JWT_SECRET=your_jwt_secret_key
-ADMIN_API_KEY=your_admin_api_key
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=your_password
-DB_NAME=railway_management
+PORT=3000<br>
+JWT_SECRET=your_jwt_secret_key<br>
+ADMIN_API_KEY=your_admin_api_key<br>
+DB_HOST=localhost<br>
+DB_USER=root<br>
+DB_PASSWORD=your_password<br>
+DB_NAME=railway_management<br>
 
 5. Set Up the Database
 ->CREATE DATABASE railway_management;
