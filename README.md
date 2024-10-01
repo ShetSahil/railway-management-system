@@ -12,7 +12,7 @@ PORT=3000<br>
 JWT_SECRET=your_jwt_secret_key<br>
 ADMIN_API_KEY=your_admin_api_key<br>
 DB_HOST=localhost<br>
-DB_USER=root<br>
+DB_USER=your_username<br>
 DB_PASSWORD=your_password<br>
 DB_NAME=railway_management<br>
 
