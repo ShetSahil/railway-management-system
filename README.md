@@ -54,7 +54,7 @@ OUTPUT:
 ![Diagram](https://github.com/ShetSahil/railway-management-system/blob/aca35aca9bbd22482776eb3035586d4f76ed8d3e/images/register.png)
 2.User Login
 ![Diagram](https://github.com/ShetSahil/railway-management-system/blob/b34fe9ec3cf36f9852de4019f0d37f26ff9fb125/images/login.png)
-3.Admin Updating Trains,br>
+3.Admin Updating Trains<br>
 a.Displaying Secret Api Key entered-
 ![Diagram](https://github.com/ShetSahil/railway-management-system/blob/b34fe9ec3cf36f9852de4019f0d37f26ff9fb125/images/addTrains1.png)
 b.Displaying the Body entered-
@@ -62,8 +62,12 @@ b.Displaying the Body entered-
 4.Getting Trains available between mentioned Stations
 ![Diagram](https://github.com/ShetSahil/railway-management-system/blob/b34fe9ec3cf36f9852de4019f0d37f26ff9fb125/images/availableTrains.png)
 5.Booking train seats
-a. Displaying the authorization token
-![Diagram]()
+a. Displaying the authorization token entered while booking
+![Diagram](https://github.com/ShetSahil/railway-management-system/blob/86ffef68eb22d940cf38dcaab184d511bf1f4225/images/BookTrain1.png)
+b. Displaying the body entered to book train
+![Diagram](https://github.com/ShetSahil/railway-management-system/blob/86ffef68eb22d940cf38dcaab184d511bf1f4225/images/BookTrain2.png)
+6.Viewing Booked Seats
+![Diagram](https://github.com/ShetSahil/railway-management-system/blob/86ffef68eb22d940cf38dcaab184d511bf1f4225/images/getBookings1.png)
 
 
 
