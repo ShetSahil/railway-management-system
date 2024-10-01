@@ -9,6 +9,7 @@ Project Setup
 3. Install dependencies
 npm install
 4. Set Up the Enviornment Variable by creating .env file in root directory and include the following
+
 PORT=3000
 JWT_SECRET=your_jwt_secret_key
 ADMIN_API_KEY=your_admin_api_key
@@ -17,7 +18,7 @@ DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=railway_management
 
-4. Set Up the Database
+5. Set Up the Database
 ->CREATE DATABASE railway_management;
 ->USE railway_management;
 
@@ -51,7 +52,8 @@ CREATE TABLE bookings (
     FOREIGN KEY (train_id) REFERENCES trains(id)
 );
 
-5. Start the server
+6. Start the server
+
 node index.js
 
 
